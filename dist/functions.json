@@ -75,6 +75,19 @@
                 }
             ],
             "result": {}
+        },
+        {
+            "description": "Returns churn rate of client",
+            "id": "CHURN",
+            "name": "CHURN",
+            "parameters": [
+                {
+                    "description": "Nickname of github user",
+                    "name": "client_id",
+                    "type": "string"
+                }
+            ],
+            "result": {}
         }
     ]
 }
